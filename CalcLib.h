@@ -19,7 +19,7 @@ struct Application
 };
 
 double getError(Application &app, const std::string& s);
-TokenValue getToken(Application &app);
+void getToken(Application &app);
 double getExpression(Application &app, bool get);
 
 #endif
